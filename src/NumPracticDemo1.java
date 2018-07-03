@@ -9,7 +9,7 @@
 /**
  * Created by Tommy on 2018/6/8.
  */
-public class NumPractice {
+public class NumPracticDemo1 {
 
     public static void main(String[] args) {
 
@@ -35,6 +35,13 @@ public class NumPractice {
         int data2=++x;
         System.out.println(" x: "+x);
         System.out.println(" data2 : "+data2);
+
+        short s=5;
+        // s=s+3;
+        // System.out.println(s);  //需要整數行別
+        s+=3;
+        System.out.println("s="+s);
+
 
 
 
