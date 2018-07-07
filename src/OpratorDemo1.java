@@ -9,7 +9,7 @@
 /**
  * Created by Tommy on 2018/6/8.
  */
-public class NumPracticDemo1 {
+public class OpratorDemo1 {
 
     public static void main(String[] args) {
 

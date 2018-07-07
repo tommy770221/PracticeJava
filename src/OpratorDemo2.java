@@ -9,7 +9,7 @@
 /**
  * Created by Tommy on 2018/7/3.
  */
-public class NumPracticDemo2 {
+public class OpratorDemo2 {
 
     public static void main(String[] args) {
 
@@ -26,6 +26,12 @@ public class NumPracticDemo2 {
         System.out.println((num1>num2) | (res=num2>num3)); //邏輯|  不管前面的表達示是真是假 後面都會運行 true
         System.out.println(res); //true
         System.out.println((num1>num2) ^ (num2>num3)); //兩個邏輯中 1真1假 才會返回真  false
+
+        //  ~ 非運算符  對二進制求反
+        System.out.println(~10);  // -11
+        System.out.println(~9);   // -10
+        System.out.println(~2000); // -2001
+
 
     }
 
