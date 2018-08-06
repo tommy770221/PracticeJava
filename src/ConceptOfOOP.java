@@ -66,4 +66,13 @@ public class ConceptOfOOP {
      * 人為將引用變量設為nul
      *
      * */
+
+    /**
+        *   static 變量不屬於任何 object
+        */
+
+    /**
+     *  private 父類別方法 不可以被override
+     *
+     * */
 }
