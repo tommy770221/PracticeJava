@@ -75,4 +75,7 @@ public class ConceptOfOOP {
      *  private 父類別方法 不可以被override
      *
      * */
+    /*
+    * map 鍵需唯一,值可以重複
+    * */
 }
