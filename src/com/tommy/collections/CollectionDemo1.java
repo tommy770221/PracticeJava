@@ -9,6 +9,8 @@
 package com.tommy.collections;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -23,6 +25,36 @@ public class CollectionDemo1 {
         nList.add("bb");
         nList.add("cc");
         nList.add("dd");
+        nList.add("bb");
+        nList.add("cc");
+        for(String n:nList){
+            System.out.println(n +" ");
+        }
+
+        System.out.println();
+        System.out.println("交換順序後");
+        Collections.swap(nList,1,2);
+        for(String s:nList){
+            System.out.println(s +" ");
+        }
+
+        System.out.println("排序後");
+        Collections.sort(nList);
+        for(String s:nList){
+            System.out.println(s +" ");
+        }
+        System.out.println("二分查找法");
+        System.out.println(Collections.binarySearch(nList,"cc"));
+        System.out.println("打亂順序");
+        Collections.shuffle(nList);
+        for(String s:nList){
+            System.out.println(s +" ");
+        }
+        System.out.println("填充");
+        Collections.fill(nList,"ccccc");
+        for(String s:nList){
+            System.out.println(s +" ");
+        }
 
 
     }
