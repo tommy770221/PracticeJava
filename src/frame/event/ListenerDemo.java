@@ -13,7 +13,7 @@ import java.awt.event.WindowEvent;
 public class ListenerDemo {
 
     public static void main(String[] args) {
-         MyFrame7 myFrame7=new MyFrame7("ListenerDemo");
+         MyFrame7 myFrame7=new MyFrame7("ListenerDemo窗體");
          System.out.println();
     }
 
