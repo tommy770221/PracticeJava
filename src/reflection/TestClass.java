@@ -1,4 +1,4 @@
-package reflaction;
+package reflection;
 
 /**
  * Created by Tommy on 2018/10/16.
@@ -18,7 +18,7 @@ public class TestClass {
 
         //ClassForName
         try {
-            Class<?> classType3=Class.forName("reflaction.Employee");
+            Class<?> classType3=Class.forName("reflection.Employee");
             System.out.println(classType3.getName());
             System.out.println(classType3.getSuperclass().getName());
         } catch (ClassNotFoundException e) {
